@@ -38,6 +38,7 @@ body {
   width: 1200px;
   margin: 0 auto;
   position: relative;
+  padding: 24px 0;
 }
 
 .header_logo {
@@ -48,7 +49,6 @@ body {
   transform: translate(0, -50%); */
   height: 100%;
   display: inline-block;
-  padding: 24px 0;
 }
 
 .logo-wrapper {
@@ -489,7 +489,7 @@ ul {
 }
 
 .pagination-search-result {
-  width: 1200px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
