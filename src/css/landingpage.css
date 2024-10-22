@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #e6f0ff;
+  --background-btn: #0f1b4c;
+  --text-color: #687690;
+  --text-color-bold: #000336;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.size-18 {
+  font-size: 18px;
+}
+
+#container {
+  height: 100%;
+  /* width: 1110px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+#header {
+  background-color: var(--background-color);
+  height: 100px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  /* box-shadow: 0px 4px 15px 0px #00000033; */
+}
+
+.header-wrapper {
+  height: 100%;
+  width: 1110px;
+  margin: 0 auto;
+  position: relative;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 500;
+  /* gap: 20px */
+}
+
+.header-wrapper .left-header {
+  display: flex;
+  gap: 20px;
+}
+
+.header-wrapper .right-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-wrapper .right-header .signup_btn {
+  border-radius: 8px;
+  padding: 10px 23px;
+  color: white;
+  background-color: var(--background-btn);
+}
+
+.header-wrapper .menu-wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header_logo {
+  /* position: absolute; */
+  /* height: 100px; */
+  /* left: 360px; */
+  /* top: 50%;
+    transform: translate(0, -50%); */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#body {
+  height: auto;
+  margin-top: 100px;
+  /* padding-top: 52px; */
+}
+
+#body .section-wrapper {
+    margin-bottom: 50px
+}
+
+#body .background-section {
+  background-color: var(--background-color);
+}
+
+.content-section {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.content-section .right-header_body,
+.content-section .left-header_body {
+  width: 50%;
+}
+
+.content-section .left-header_body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left-header_body .sub_title {
+  color: var(--text-color);
+}
+
+.left-header_body .main_title {
+  font-size: 64px;
+  font-weight: 700;
+  color: var(--text-color-bold);
+  line-height: 76px;
+}
+
+.contact-btn_wrapper {
+  display: flex;
+}
+
+.left-header_body .contact-btn {
+  padding: 20px;
+  background-color: var(--background-btn);
+  font-size: 13px;
+  color: white;
+  border-radius: 12px;
+  /* display: inline; */
+  /* width: auto */
+}
+
+.content-section .right-header_body {
+}
